@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ACB54A7E1E10C526002259AD /* calculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB54A7D1E10C526002259AD /* calculatorBrain.swift */; };
 		ACC1C5381E10B56D00D0F0CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC1C5371E10B56D00D0F0CE /* AppDelegate.swift */; };
 		ACC1C53A1E10B56D00D0F0CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC1C5391E10B56D00D0F0CE /* ViewController.swift */; };
 		ACC1C53D1E10B56D00D0F0CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACC1C53B1E10B56D00D0F0CE /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		ACB54A7D1E10C526002259AD /* calculatorBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = calculatorBrain.swift; sourceTree = "<group>"; };
 		ACC1C5341E10B56D00D0F0CE /* stanfordCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = stanfordCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACC1C5371E10B56D00D0F0CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACC1C5391E10B56D00D0F0CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				ACC1C5371E10B56D00D0F0CE /* AppDelegate.swift */,
 				ACC1C5391E10B56D00D0F0CE /* ViewController.swift */,
 				ACC1C53B1E10B56D00D0F0CE /* Main.storyboard */,
+				ACB54A7D1E10C526002259AD /* calculatorBrain.swift */,
 				ACC1C53E1E10B56D00D0F0CE /* Assets.xcassets */,
 				ACC1C5401E10B56D00D0F0CE /* LaunchScreen.storyboard */,
 				ACC1C5431E10B56D00D0F0CE /* Info.plist */,
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACB54A7E1E10C526002259AD /* calculatorBrain.swift in Sources */,
 				ACC1C53A1E10B56D00D0F0CE /* ViewController.swift in Sources */,
 				ACC1C5381E10B56D00D0F0CE /* AppDelegate.swift in Sources */,
 			);
@@ -514,6 +518,7 @@
 				ACC1C55E1E10B56D00D0F0CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ACC1C55F1E10B56D00D0F0CE /* Build configuration list for PBXNativeTarget "stanfordCalcTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +527,7 @@
 				ACC1C5611E10B56D00D0F0CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ACC1C5621E10B56D00D0F0CE /* Build configuration list for PBXNativeTarget "stanfordCalcUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +536,7 @@
 				ACC1C5641E10B56D00D0F0CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
