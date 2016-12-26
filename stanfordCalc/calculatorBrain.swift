@@ -8,6 +8,7 @@
 
 import Foundation
 
+//testing function with source control
 func multiply (op1: Double, op2: Double) -> Double {
     return op1 * op2
 }
